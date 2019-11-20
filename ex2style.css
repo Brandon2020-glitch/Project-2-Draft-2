@@ -1,0 +1,19 @@
+.box {
+  color: pink;
+  border-radius: 5px;
+  border: 2px blak solid;
+  color: pink ;
+  font-size: 25px
+}
+ .grid {
+  width: 100%;
+  height: 10000px;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+}
+.sci {
+	 background-image: url("https://d4j2i6ubvolvu.cloudfront.net/sites/default/files/thumbnails/image/Diagram%20showing%20Car%20T%20cell%20therapy.png") ;
+	 height: 100%;
+	 width: 100%;
+	 background-repeat: no-repeat ;
+}

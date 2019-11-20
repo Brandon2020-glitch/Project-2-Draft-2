@@ -1,0 +1,38 @@
+.grid{
+	grid-template-columns: 33.33% 33.33% 33.33% ;
+	grid-template-rows: 100px 100px 100px ;
+	display: grid;
+	grid-gap: 5px ;
+	height: 1000px ;
+}
+.box {
+ background-color: beige;
+ color: black;
+ border-radius: 5px;
+ border: 2px dodgerblue solid;
+ height: 1000px ;
+}
+
+body {
+	background-image: url("https://cancerconsultindia.com/wp-content/uploads/2016/10/cancer-motivation-1000x480.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+.item2{
+	font-size: 20px;
+	color: pink;
+	grid-column-start: 1;
+}
+.item3{
+	font-size: 20px;
+	color: pink;
+	grid-column-start: 3;
+}
+.item4{
+	font-size: 30px;
+	grid-column-start: 3;
+	grid-row-start: 8;
+	color: pink;
+}
+
+	
